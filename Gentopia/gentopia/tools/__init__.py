@@ -15,6 +15,7 @@ from .file_operation import WriteFile, ReadFile
 from .duckduckgo import DuckDuckGo
 
 
+
 def load_tools(name: str) -> BaseTool:
     name2tool = {
         "arxiv_search": ArxivSearch,
@@ -43,6 +44,7 @@ def load_tools(name: str) -> BaseTool:
         "search_single_paper": SearchSinglePaper,
         "search_related_paper": SearchRelatedPaper,
         "search_cite_paper": SearchCitePaper,
+        
     }
     if name not in name2tool:
         raise NotImplementedError

@@ -1,0 +1,32 @@
+INFO:root:Creating Config from file: ./gentpool/pool/vaishu_scholar_agent/agent.yaml
+INFO:root:Starting to load configuration from ./gentpool/pool/vaishu_scholar_agent/agent.yaml
+INFO:root:Successfully loaded configuration from ./gentpool/pool/vaishu_scholar_agent/agent.yaml
+INFO:root:--------------------
+INFO:root:[green]Welcome to Gentopia!
+INFO:root:--------------------
+INFO:root:[green]User: 
+INFO:root:vaishu_scholar_agent is thinking...
+INFO:root:Done
+INFO:root:[blue]vaishu_scholar_agent: 
+INFO:root:{"name":"search_single_paper", "arguments":{
+  "title": "Gen-topia: A collaborative platform for tool-augmented llms",
+  "top_k": 1
+}}
+
+INFO:root:Calling function: search_single_paper ...
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=Gen-topia%3A%20A%20collaborative%20platform%20for%20tool-augmented%20llms
+INFO:httpx:HTTP Request: GET https://scholar.google.com/scholar?hl=en&q=Gen-topia%3A%20A%20collaborative%20platform%20for%20tool-augmented%20llms "HTTP/1.1 200 OK"
+INFO:root:Done
+INFO:root:--------------------
+INFO:root:{'title': 'Gentopia: A collaborative platform for tool-augmented llms', 'author': ['B Xu', 'X Liu', 'H Shen', 'Z Han', 'Y Li', 'M Yue', 'Z Peng'], 'pub_year': '2023', 'venue': 'arXiv preprint arXiv …', 'abstract': 'Augmented Language Models (ALMs) empower large language models with the ability to use tools, transforming them into intelligent agents for real-world interactions. However, most existing frameworks for ALMs, to varying degrees, are deficient in the following critical features: flexible customization, collaborative democratization, and holistic evaluation. We present gentopia, an ALM framework enabling flexible customization of agents through simple configurations, seamlessly integrating various language models, task formats', 'url': 'https://arxiv.org/abs/2308.04030', 'citation': 15}
+INFO:root:--------------------
+INFO:root:vaishu_scholar_agent is thinking...
+INFO:root:Done
+INFO:root:[blue]vaishu_scholar_agent: 
+INFO:root:The paper titled "Gentopia: A collaborative platform for tool-augmented llms" by B Xu, X Liu, H Shen, Z Han, Y Li, M Yue, Z Peng, published in 2023, presents a framework for Augmented Language Models (ALMs). ALMs are large language models that have been empowered with the ability to use tools, transforming them into intelligent agents for real-world interactions. 
+
+The authors argue that most existing frameworks for ALMs are deficient in critical features such as flexible customization, collaborative democratization, and holistic evaluation. To address these deficiencies, they present gentopia, an ALM framework that enables flexible customization of agents through simple configurations and seamlessly integrates various language models and task formats. 
+
+The paper has been cited 15 times. You can read the full paper [here](https://arxiv.org/abs/2308.04030).
+INFO:root:Done
+INFO:root:[green]User: 
